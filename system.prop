@@ -157,6 +157,7 @@ vendor.camera.hal1.packagelist=com.skype.raider,com.google.android.talk
 #system props for SurfaceFlinger
 
 # Graphics
+debug.hwui.use_buffer_age=false
 debug.sf.disable_backpressure=1
 debug.sf.enable_hwc_vds=1
 debug.sf.hw=0
