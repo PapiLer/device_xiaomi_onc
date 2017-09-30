@@ -2432,6 +2432,7 @@ vendor/lib64/liblistensoundmodel2.so|13b37cbd54943834676872f534e6a51505bbcea7
 
 # Media - from daisy-user-10-QKQ1.191002.002-V11.0.18.0.QDLMIXM-release-keys
 vendor/lib/libI420colorconvert.so|0dfd4d0e49f4250e98e781483048a296a679e05e
+vendor/lib/libmmosal_proprietary.so|4b0788590e1ecfccd3b20b3181a4add528acb2b6
 vendor/lib/libOmxAacDec.so|55772a6d0cf3e6a5a2c32348fd7096b8737d490b
 vendor/lib/libOmxAlacDec.so|adca064b15a7d545075af6f5222db45dec8202b5
 vendor/lib/libOmxAlacDecSw.so|8700268f92a953549e5936af9d5ccd08f99ed50f
@@ -2464,6 +2465,53 @@ vendor/lib/libbluetooth_audio_session_qti.so|1b4a17c396d61a52ad374ba22f51739426f
 vendor/lib/libc2d30_bltlib.so|4a486823ef2a9ea14f4f02c9eb9053ac5fb028af
 vendor/lib/libcdsp_default_listener.so|5c035d22a100501d090c15786ac720eecec15624
 vendor/lib/libcdsprpc.so|ad00bd9a9f8e43403fcaf3101cce2b452a636032
+-vendor/lib/libgpustats.so|75fc8f58b071f3c27d708010e1b40eafba091a14
+vendor/lib/libmm-color-convertor.so|7c74d36d42dc79fc58afe0f4323b76cc1297d36e
+vendor/lib/libvqzip.so|24e5eb30e5a2cdb544c8688d81d7cc75a1d85eaf
+vendor/lib64/libOmxAacDec.so|0f0f3c9d8f285318a1d229c8ebc290810782d21c
+vendor/lib64/libOmxAlacDec.so|a3783f6cce2da0a3a2043407fa7c12c8c78e442e
+vendor/lib64/libOmxAlacDecSw.so|971b09afca162ed63cd6447cdc4ab66e1b58391b
+vendor/lib64/libOmxAmrDec.so|c330f9573718b48874cb7124a2227a3d74e7a7e8
+vendor/lib64/libOmxAmrwbplusDec.so|88d832647ed41b159c602acff711229de8c62044
+vendor/lib64/libOmxApeDec.so|6dd801d0a0c58e92ab3679e937854ee2d96e18aa
+vendor/lib64/libOmxApeDecSw.so|03885e69606e7e868fe9d1245dac5651c301a567
+vendor/lib64/libOmxEvrcDec.so|dfbf3ad5e84218c16cdd5f0ea5b60bc87906e9ee
+vendor/lib64/libOmxQcelp13Dec.so|01786938265bd0de9adef15f695102333fca60a5
+vendor/lib64/libOmxWmaDec.so|32e1b9c72d0b0a8b74978e1687b701e18030d68a
+-vendor/lib64/libgpustats.so|a899ae72983277442cdacf8f43271986c91ce710
+vendor/lib64/libmm-color-convertor.so|d3539eb5a6a986f8ba81bac9cbf7b34872b12f1a
+
+# Perf - from daisy-user-10-QKQ1.191002.002-V11.0.18.0.QDLMIXM-release-keys
+vendor/bin/energy-awareness|def07e366347c7f0a7778b748acb49557ab21d2a
+vendor/bin/hw/vendor.qti.hardware.perf@2.0-service|07b1b78015ee6d8d12ae38a5c7a3253567ee97e8
+vendor/bin/msm_irqbalance|b5e55b4b0934b65b7dd5d2201f9a70f6f77a4e7c
+vendor/etc/init/vendor.qti.hardware.perf@2.0-service.rc|cc8658db5e19f8e5e575fb986e7d38147e675f8d
+vendor/etc/perf/commonresourceconfigs.xml|d9fc3b49481536d6c7a25eb13f9f1d52d3ee8ff1
+vendor/etc/perf/perfboostsconfig.xml|429d7e2032a494eff1f8d0c039fa839082145b59
+vendor/etc/perf/perfconfigstore.xml|207ff980c296f4935928dd2f06e085b33bf59755
+vendor/etc/perf/targetconfig.xml|aa20c25397df1455206965737f82d44d44430e45
+vendor/etc/perf/targetresourceconfigs.xml|d9f9815764725df55e748bf4af4829e609dac853
+vendor/lib/libperfconfig.so|11f6ec2d7da51872dad2f016a6638df209adca14
+vendor/lib/libperfgluelayer.so|5c9db256d92ddf5bce65941f2cad5eaeb4f028fd
+vendor/lib/libqti-perfd-client.so|ca0e9b4e029985949b8c0fcc9e9a7d543a7a789e
+vendor/lib/libqti-perfd.so|855dd68c8a277c8b4787579a935a23bead62dd59
+vendor/lib/libqti-util.so|f1a4d655ee827d791447f303e59197e7271fafb5
+vendor/lib64/libperfconfig.so|d590b6ce31c8b2158a3653c9248f5c12139d27cd
+vendor/lib64/libperfgluelayer.so|269245742c7628539e9d86a1fa4b9ba2551774e3
+vendor/lib64/libqti-perfd-client.so|754fc2b05a5c81825108cfcdfc036156216592a9
+vendor/lib64/libqti-perfd.so|f252bc957f45dd389463abe97be3f0f129da8b67
+vendor/lib64/libqti-util.so|e790b62bb198442145fcba20c2dc61d182c45a47
+
+# Peripheral manager - from daisy-user-10-QKQ1.191002.002-V11.0.18.0.QDLMIXM-release-keys
+vendor/bin/pm-proxy|1f216a6f54e9b97c026f3f3bc4d7d441d58d90a7
+vendor/bin/pm-service|8a521f14576d0d2edf03b4500a54379d37e15d4e
+vendor/lib/libperipheral_client.so|b75a6adac094ddcd6ded9415cae83e18d1e7e5d0
+vendor/lib64/libperipheral_client.so|20c8ab21fe28e41f60b59af0ba72de9f6b1996d2
+
+# Postprocessing - from daisy-user-10-QKQ1.191002.002-V11.0.18.0.QDLMIXM-release-keys
+vendor/bin/hw/vendor.display.color@1.0-service|dd461fbbbdc7175b8e1e37eba19bc1c48111b5b6
+vendor/bin/mm-pp-dpps|5d68b2ae07de96e33d1c1b7698994ec2b219e084
+vendor/etc/init/vendor.display.color@1.0-service.rc|5ad673f879b3685a0e79b5633437e5499cb94f48
 vendor/lib/libdisp-aba.so|0de85e6fc20afc083ede386fecb90a08ac59117e
 vendor/lib/libdrc.so|55fc13d205ce3199de2cf1f9c1dab479909c15be
 vendor/lib/libfastcvadsp_stub.so|996345605e1d631151a6b4e9cd9f65b2c7e82dac
@@ -2764,3 +2812,12 @@ vendor/lib/libstreamparser.so|5f6d72017b1aa1ae457f6de54b8c101568e22cb8
 vendor/lib64/libUBWC.so|5b9ac103bde9ffc8384f34384d8552e5c44d5725
 vendor/lib64/libfastcrc.so|e49babf1637978654fcb5fe5949f65d0a60b11c2
 vendor/lib64/libstreamparser.so|8ccb6cfc28decef9b13b392713fd9e76ceb97764
+# Time services - from daisy-user-10-QKQ1.191002.002-V11.0.18.0.QDLMIXM-release-keys
+-vendor/app/TimeService/TimeService.apk|27f9b81621c446baa8c37581d9bfbca2fd67b496
+vendor/bin/time_daemon|75b8a6a14cfb4424499ccb2bf1cad011df295d0e
+vendor/lib/libtime_genoff.so|a574d287e7e73649685b702f4fe497eb7c6ba727
+vendor/lib64/libtime_genoff.so|06df52867790cdbbcc674a3a28d7ad7c8cc161ac
+
+# Voice - from daisy-user-10-QKQ1.191002.002-V11.0.18.0.QDLMIXM-release-keys
+vendor/lib/vendor.qti.voiceprint@1.0.so|b70091c7b738394468b7d732df283d23a3975f46
+vendor/lib64/vendor.qti.voiceprint@1.0.so|aeca80d0859dd1084b4a6585779d79b48ae9aa76
