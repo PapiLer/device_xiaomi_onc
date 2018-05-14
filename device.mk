@@ -130,6 +130,7 @@ PRODUCT_PACKAGES += \
     libqcompostprocbundle \
     tinymix \
     libnbaio
+    libqcompostprocbundle
 
 # Audio configuration
 PRODUCT_COPY_FILES += \
