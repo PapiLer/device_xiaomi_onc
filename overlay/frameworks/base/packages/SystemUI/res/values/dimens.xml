@@ -25,4 +25,5 @@
     <dimen name="system_icons_keyguard_padding_end">8dp</dimen>
     <dimen name="multi_user_switch_keyguard_margin">8dp</dimen>
     <dimen name="keyguard_carrier_text_margin">16dp</dimen>
+    <dimen name="status_bar_padding_top">12px</dimen>
 </resources>
