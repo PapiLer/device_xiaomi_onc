@@ -1,5 +1,4 @@
 /*
-<<<<<<< HEAD
   Copyright (C) 2020 The Android Open Source Project
 
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,7 +16,6 @@
 
 #include <cstdlib>
 #include <stdlib.h>
-=======
    Copyright (c) 2016, The CyanogenMod Project
    Copyright (C) 2019 The LineageOS Project.
    Copyright (C) 2020-2021 The MoKee Open Source Project
@@ -48,7 +46,6 @@
 
 
 #include <cstdlib>
->>>>>>> fe42cd624 (onclite: bring back libinit)
 #include <fstream>
 #include <string.h>
 #include <sys/sysinfo.h>
@@ -61,20 +58,16 @@
 #include "vendor_init.h"
 #include "property_service.h"
 
-<<<<<<< HEAD
-
 using android::base::GetProperty;
 using std::string;
 
 
 void property_override(string prop, string value) {
-=======
 using android::base::GetProperty;
 using std::string;
 
 void property_override(string prop, string value)
 {
->>>>>>> fe42cd624 (onclite: bring back libinit)
     auto pi = (prop_info*) __system_property_find(prop.c_str());
 
     if (pi != nullptr)
@@ -83,7 +76,6 @@ void property_override(string prop, string value)
         __system_property_add(prop.c_str(), prop.size(), value.c_str(), value.size());
 }
 
-<<<<<<< HEAD
 
 void load_props(string device, string model) {
     string RO_PROP_SOURCES[] = { "", "odm.", "system.", "vendor.", "product.", "bootimage.", "system_ext." };
@@ -105,7 +97,7 @@ void vendor_load_properties() {
         load_props("onclite", "Redmi 7");
     else
         load_props("onc", "Redmi Y3");
-=======
+
 void vendor_load_properties()
 {
     string device, model, desc;
@@ -175,5 +167,7 @@ void vendor_load_properties()
     property_override("dalvik.vm.heapminfree", heapminfree);
     property_override("dalvik.vm.heapmaxfree", heapmaxfree);
 
->>>>>>> fe42cd624 (onclite: bring back libinit)
+
+    // SafetyNet Workaround
+    property_override("ro.boot.verifiedbootstate", "green");
 }
