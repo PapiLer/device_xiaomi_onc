@@ -2321,6 +2321,10 @@ vendor/lib/btaudio_offload_if.so|300341c44a808bb73ec449930259aace347c7c63
 vendor/lib/egl/eglSubDriverAndroid.so|fd8988a606cec377e01127be389c98fffd0121a6
 vendor/lib/egl/libEGL_adreno.so|3ce5d0adb97ec329fb0069295964fdcc9ece0041
 vendor/lib/egl/libGLESv1_CM_adreno.so|7254635133cb608459f9deeed36a9d2852068714
+# Graphics - from daisy-user-10-QKQ1.191002.002-V11.0.18.0.QDLMIXM-release-keys
+vendor/lib/egl/eglSubDriverAndroid.so|d0f0f243aeb41720cbc052c2344918c5d588659c
+vendor/lib/egl/libEGL_adreno.so|a3bb3c748cc180521a3b0ea173e714a55c01b118
+vendor/lib/egl/libGLESv1_CM_adreno.so|43c864f0c3f384085f9d19a2e1d56e672f319ea6
 vendor/lib/egl/libGLESv2_adreno.so|15104ce575d5fb6282502fcf73ea27b6f52429bc
 vendor/lib/egl/libQTapGLES.so|485477504094831f29fc9aa895efb075d26d3a1b
 vendor/lib/egl/libq3dtools_adreno.so|dcdc5c6af04432c550c71f6df204145e68a3078c
