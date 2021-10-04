@@ -37,6 +37,10 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 720
 
+# Hardware
+PRODUCT_BOARD_PLATFORM := msm8953
+PRODUCT_USE_QCOM_HARDWARE := true
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.audio.low_latency.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.low_latency.xml \
