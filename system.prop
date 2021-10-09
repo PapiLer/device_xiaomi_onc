@@ -222,6 +222,7 @@ persist.sys.oem.otg_support=true
 
 # Radio
 DEVICE_PROVISIONED=1
+persist.sys.fflag.override.settings_provider_model=false
 ril.subscription.types=NV,RUIM
 rild.libargs=-d /dev/smd0
 rild.libpath=/vendor/lib64/libril-qc-qmi-1.so
