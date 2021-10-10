@@ -243,7 +243,8 @@ PRODUCT_PACKAGES += \
     libqdMetaData \
     libqdMetaData.system \
     libgenlock \
-    vendor.display.config@1.9
+    vendor.display.config@2.0 \
+    vendor.display.config@2.0.vendor
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.min.fling_velocity=160 \
