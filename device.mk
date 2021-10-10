@@ -358,6 +358,9 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw
 
+PRODUCT_PACKAGES += \
+    libstagefright_enc_common
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.0-service \
