@@ -2230,8 +2230,26 @@ system_ext/lib64/vendor.qti.hardware.data.latency@1.0.so|2a8974d59024c61d5ab8eed
 system_ext/lib64/vendor.qti.latency@2.0.so|53c8c4f408d5b63a4d70e877967ba17d073c995b
 
 # Media
+lib/libFileMux.so|4e05cd5e9913311ad17543d204adcd6d60cc8754
+lib/libOmxMux.so|1f861cbf34f5e885fb4f9637b4aab53a3c59691b
+system_ext/lib/extractors/libmmparserextractor.so|f652313d65d5c629dd62e20e62f461f6ec926e8e
+system_ext/lib/libavenhancements.so|248d6cf0db255fb2cf5e077e7127f510036f7ec0
+system_ext/lib/libmmosal.so|8c7f0a071f84ec2ac9522bf448cb902a3ece2405
+system_ext/lib/libmmparser_lite.so|719c1ed7d0b8cec6eea69a66366461810b84652b
+system_ext/lib/vendor.qti.hardware.vpp@1.1.so|f0b4b56f51ca2d8149c8dd29ae1979aaaf38abdf
+system_ext/lib/vendor.qti.hardware.vpp@1.2.so|51515ebdabe8ebd3bc46df6e8efd53df0c780532
+system_ext/lib64/libavenhancements.so|642292eeef580a33fec54b4505c1b6cecffde5a3
+system_ext/lib64/libmmosal.so|ef19a38be8283c87eabe96f74bc8a71881ab1f0a
+system_ext/lib64/vendor.qti.hardware.vpp@1.1.so|32f94013a0f9016922d29e37d67a63750eaa5619
+system_ext/lib64/vendor.qti.hardware.vpp@1.2.so|70ffbc22b8f639f3845c1b8125090c92303332ec
 vendor/lib/libmmosal.so|e23d6d1b2a035c08ffd7ac72d5241ebff37f0d14
+vendor/lib/libstagefright_soft_qtiflacdec.so|a98dcec150e4700620a1637ca8f85db06fb1808b
+vendor/lib/vendor.qti.hardware.vpp@1.1.so|8b8f64ad4141bf1fd44d024ccc9a3761cbf5a9e8
+vendor/lib/vendor.qti.hardware.vpp@1.2.so|800c9a909fc1b1d44f533c29a668a7779f85e431
 vendor/lib64/libmmosal.so|e9fdb48163e92b089cea0c397723a8416436c272
+vendor/lib64/libstagefright_soft_qtiflacdec.so|fe77644f204c35bb3d8ac8cdf6e07dfe0b675857
+vendor/lib64/vendor.qti.hardware.vpp@1.1.so|f7769685d9c0c74f8c8419db028a5d5c3f65a9da
+vendor/lib64/vendor.qti.hardware.vpp@1.2.so|ca1906012d0ab6dc9048aa49703833512308e6cf
 
 # Performance
 system_ext/etc/perf/wlc_model.tflite|83cf4df067bc14c78f31943f32bcaf6f32419125
