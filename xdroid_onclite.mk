@@ -13,10 +13,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, device/xiaomi/onclite/device.mk)
 
 # Inherit some common ConquerOS stuff.
-$(call inherit-product, vendor/conquer/config/common.mk)
+$(call inherit-product, vendor/xdroid/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := conquer_onclite
+PRODUCT_NAME := xdroid_onclite
 PRODUCT_DEVICE := onclite
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 7

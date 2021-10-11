@@ -1,6 +1,6 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/conquer_onclite.mk
+    $(LOCAL_DIR)/xdroid_onclite.mk
 
 COMMON_LUNCH_CHOICES := \
-    conquer_onclite-user \
-    conquer_onclite-userdebug
+    xdroid_onclite-user \
+    xdroid_onclite-userdebug
