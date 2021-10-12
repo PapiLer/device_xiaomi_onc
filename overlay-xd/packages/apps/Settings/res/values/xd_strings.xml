@@ -18,6 +18,6 @@
     <string name="xd_chipset_type_summary">Qualcomm Snapdragon™ 632</string>
     <string name="xd_gpu_summary">Adreno 506</string>
     <string name="xd_camera_mp_summary">12MP+2MP Dual Camera</string>
-    <string name="xd_screen_type_summary">IPS LCD FHD+ 6.26 Screen</string>
+    <string name="xd_screen_type_summary">IPS LCD HD+ 6.26 Screen</string>
 
 </resources>
