@@ -192,6 +192,12 @@ persist.vendor.radio.enable_temp_dds=true
 persist.vendor.ssr.restart_level=ALL_ENABLE
 
 sys.thermal.data.path=/data/vendor/thermal/
+# Media
+media.stagefright.thumbnail.prefer_hw_codecs=true
+vendor.mm.enable.qcom_parser=1048575
+vendor.vidc.dec.downscalar_height=1088
+vendor.vidc.dec.downscalar_width=1920
+vendor.vidc.enc.disable_bframes=1
 
 #enable mbn file update for SIMTriger
 persist.vendor.radio.start_ota_daemon=1
