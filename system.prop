@@ -137,6 +137,13 @@ vidc.enc.dcvs.extra-buff-count=2
 # system property to accelerate Progressive Download using STA
 persist.mm.sta.enable=0
 
+# Camera
+persist.vendor.camera.expose.aux=1
+vidc.enc.dcvs.extra-buff-count=2
+
+# Charger
+ro.charger.disable_init_blank=true
+
 #property to enable fingerprint
 persist.qfp=false
 
@@ -197,6 +204,14 @@ persist.bg.dexopt.enable=true
 
 #property to enable usb otg
 persist.sys.oem.otg_support=true
+
+# Radio
+DEVICE_PROVISIONED=1
+ril.subscription.types=NV,RUIM
+rild.libargs=-d /dev/smd0
+rild.libpath=/vendor/lib64/libril-qc-qmi-1.so
+ro.telephony.default_network=22,22
+telephony.lteOnCdmaDevice=1
 
 # WFD
 persist.debug.wfd.enable=1
