@@ -1,12 +1,21 @@
 //
+<<<<<<< HEAD
 // Copyright (C) 2020 The Android Open Source Project
 // Copyright (C) 2021 The Nusantara Project ROM
+=======
+// Copyright (C) 2019-2020 The LineageOS Project
+// Copyright (C) 2020 The MoKee Open Source Project
+>>>>>>> fe42cd624 (onclite: bring back libinit)
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
 // You may obtain a copy of the License at
 //
+<<<<<<< HEAD
 //      http://www.apache.org/licenses/LICENSE-2.0
+=======
+// http://www.apache.org/licenses/LICENSE-2.0
+>>>>>>> fe42cd624 (onclite: bring back libinit)
 //
 // Unless required by applicable law or agreed to in writing, software
 // distributed under the License is distributed on an "AS IS" BASIS,
@@ -19,9 +28,15 @@ cc_library_static {
     name: "libinit_onclite",
     recovery_available: true,
     srcs: ["init_onclite.cpp"],
+<<<<<<< HEAD
     whole_static_libs: ["libbase"],
     include_dirs: [
         "system/core/base/include",
+=======
+    whole_static_libs: ["libbase","libselinux"],
+    include_dirs: [
+        "system/libbase/include",
+>>>>>>> fe42cd624 (onclite: bring back libinit)
         "system/core/init"
     ],
     shared_libs: [
