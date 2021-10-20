@@ -202,6 +202,13 @@ persist.vendor.radio.hw_mbn_update=0
 #enable bg dexopt
 persist.bg.dexopt.enable=true
 
+# Media
+media.stagefright.thumbnail.prefer_hw_codecs=true
+vendor.mm.enable.qcom_parser=1048575
+vendor.vidc.dec.downscalar_height=1088
+vendor.vidc.dec.downscalar_width=1920
+vendor.vidc.enc.disable_bframes=1
+
 #property to enable usb otg
 persist.sys.oem.otg_support=true
 
