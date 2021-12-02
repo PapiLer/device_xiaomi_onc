@@ -18,9 +18,7 @@ $(call inherit-product, vendor/xiaomi/onclite/onclite-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-ssos
-
-TARGET_USES_BLUR := true
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-xd
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
@@ -530,7 +528,3 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 # Zygote
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.device_config.runtime_native.usap_pool_enabled=true
-
-PRODUCT_BOARD_PLATFORM := msm8953
-PRODUCT_USES_QCOM_HARDWARE := true
-

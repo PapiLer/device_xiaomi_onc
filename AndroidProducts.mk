@@ -1,6 +1,6 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ssos_onclite.mk
+    $(LOCAL_DIR)/xdroid_onclite.mk
 
 COMMON_LUNCH_CHOICES := \
-    ssos_onclite-user \
-    ssos_onclite-userdebug
+    xdroid_onclite-user \
+    xdroid_onclite-userdebug
