@@ -21,6 +21,7 @@ PRODUCT_DEVICE := onclite
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 7
 PRODUCT_MANUFACTURER := Xiaomi
+XDROID_BOOT_76 := true
 
 # Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
@@ -31,3 +32,4 @@ TARGET_USE_GAPPS := false
 #PRODUCT_PACKAGES += \
 #    GAppsExclude
 #endif
+
